@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/pakiet.dir/main.cpp.o CMakeFiles/pakiet.dir/pakiet.cpp.o -o pakiet 
