@@ -6,6 +6,7 @@
 #include <vector>
 #include <optional>
 #include <algorithm>
+#include <chrono>
 
 namespace pakiet
 {
@@ -13,4 +14,25 @@ namespace pakiet
     std::function<double(double, double)> makeMultiplier(double a, double b);
     template<size_t C>
     std::vector<int> filterEvenNumbers(const std::array<int, C>& arr);
+    template<typename B, typename C>
+    double measureExecutionTime(std::function<void(B,C)> func, B arg1, C arg2);
+
+}
+
+template<size_t C>
+std::vector<int> pakiet::filterEvenNumbers(const std::array<int, C>& arr){
+    std::vector<int> vec{};
+    std::copy_if(arr.begin(), arr.end(), std::back_inserter(vec), [](int curr){return curr%2==0;});
+    return vec;
+}
+
+template<typename B>
+double measureExecutionTime(std::function<void(B, B)> func, B arg1, B arg2){
+    using namespace std::chrono;
+    auto start = high_resolution_clock::now();
+    func(arg1, arg2);
+    auto stop = high_resolution_clock::now(); 
+
+    auto duration = duration_cast<microseconds>(stop - start);
+    std::cout << "execution time (in microseconds): " << duration.count();
 }

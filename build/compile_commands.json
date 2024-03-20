@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/home/pat/repos/cpp/programowanieFunkcyjne/programowanieFunkcyjne/build",
+  "command": "/usr/bin/g++ -g -o CMakeFiles/pakiet.dir/main.cpp.o -c /home/pat/repos/cpp/programowanieFunkcyjne/programowanieFunkcyjne/main.cpp",
+  "file": "/home/pat/repos/cpp/programowanieFunkcyjne/programowanieFunkcyjne/main.cpp",
+  "output": "CMakeFiles/pakiet.dir/main.cpp.o"
+},
+{
+  "directory": "/home/pat/repos/cpp/programowanieFunkcyjne/programowanieFunkcyjne/build",
+  "command": "/usr/bin/g++ -g -o CMakeFiles/pakiet.dir/pakiet.cpp.o -c /home/pat/repos/cpp/programowanieFunkcyjne/programowanieFunkcyjne/pakiet.cpp",
+  "file": "/home/pat/repos/cpp/programowanieFunkcyjne/programowanieFunkcyjne/pakiet.cpp",
+  "output": "CMakeFiles/pakiet.dir/pakiet.cpp.o"
+}
+]
