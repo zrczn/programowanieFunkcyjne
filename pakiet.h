@@ -7,6 +7,7 @@
 #include <optional>
 #include <algorithm>
 #include <chrono>
+#include <tuple>
 
 namespace pakiet
 {
@@ -17,6 +18,11 @@ namespace pakiet
     template<typename B, typename C>
     double measureExecutionTime(std::function<void(B,C)> func, B arg1, C arg2);
 
+    auto currying_add(int a);
+    std::tuple<int, char> twoFuncComposition(std::function<int(int)> funcA, std::function<char(char)> funcB,
+        int val1, char val2);
+    
+    void longFuncDemo(int a, int b, int c);
 }
 
 template<size_t C>
@@ -36,3 +42,7 @@ double measureExecutionTime(std::function<void(B, B)> func, B arg1, B arg2){
     auto duration = duration_cast<microseconds>(stop - start);
     std::cout << "execution time (in microseconds): " << duration.count();
 }
+
+void sortIt(std::vector<std::string>& arr);
+
+int calculate_factorial(int a);

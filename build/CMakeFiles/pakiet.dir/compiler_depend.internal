@@ -239,6 +239,14 @@ CMakeFiles/pakiet.dir/main.cpp.o
  /usr/include/c++/11/algorithm
  /usr/include/c++/11/pstl/glue_algorithm_defs.h
  /usr/include/c++/11/pstl/execution_defs.h
+ /usr/include/c++/11/chrono
+ /usr/include/c++/11/ratio
+ /usr/include/c++/11/ctime
+ /usr/include/c++/11/bits/parse_numbers.h
+ /usr/include/c++/11/numeric
+ /usr/include/c++/11/bits/stl_numeric.h
+ /usr/include/c++/11/bit
+ /usr/include/c++/11/pstl/glue_numeric_defs.h
 
 CMakeFiles/pakiet.dir/pakiet.cpp.o
  /home/pat/repos/cpp/zalFunkcyjne/pakiet1/pakiet.cpp
@@ -478,4 +486,8 @@ CMakeFiles/pakiet.dir/pakiet.cpp.o
  /usr/include/c++/11/algorithm
  /usr/include/c++/11/pstl/glue_algorithm_defs.h
  /usr/include/c++/11/pstl/execution_defs.h
+ /usr/include/c++/11/chrono
+ /usr/include/c++/11/ratio
+ /usr/include/c++/11/ctime
+ /usr/include/c++/11/bits/parse_numbers.h
 

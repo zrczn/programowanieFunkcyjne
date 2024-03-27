@@ -6,6 +6,7 @@
 #include <vector>
 #include <numeric>
 
+
 using namespace pakiet;
 int main(){
 
@@ -61,6 +62,39 @@ int main(){
     int sum = std::accumulate(arrPow.begin(), arrPow.end(), 0);
     std::cout << '\n' << sum;
 ////////////////////////////////////////////
+    std::vector<int> genVec{10};
     
+    std::cout << '\n';
+
+    std::generate(genVec.begin(), genVec.end(), [n = 1]()
+    mutable{
+        return n*=2;
+    });
+    for(auto& v : genVec){
+        std::cout << v;
+    }
+///////////////////////////////////////////
+    std::vector<std::string> wrds{"q", "bbb", "aa"}; 
+
+    std::cout << '\n';
+
+    sortIt(wrds);
+    for(auto& i : wrds){
+        std::cout << i << '\n';
+    }
+//////////////////////////////////////////
+    std::cout << calculate_factorial(5);
+/////////////////////////////////////////
+    auto kompozycjaDwochFunkcji = twoFuncComposition(
+        [](int a){ return a;},
+        [](char b){return b;},
+        5,
+        'k'
+    );
+    std::cout << '\n' << std::get<0>(kompozycjaDwochFunkcji) << '\n'
+        << std::get<1>(kompozycjaDwochFunkcji) << '\n';
+////////////////////////////////////////
+    auto f = std::bind(longFuncDemo, 1, 2 , std::placeholders::_1);
+    f(5);
     return 0;
 }

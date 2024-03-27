@@ -237,7 +237,15 @@ CMakeFiles/pakiet.dir/main.cpp.o: ../main.cpp \
   /usr/include/c++/11/optional \
   /usr/include/c++/11/algorithm \
   /usr/include/c++/11/pstl/glue_algorithm_defs.h \
-  /usr/include/c++/11/pstl/execution_defs.h
+  /usr/include/c++/11/pstl/execution_defs.h \
+  /usr/include/c++/11/chrono \
+  /usr/include/c++/11/ratio \
+  /usr/include/c++/11/ctime \
+  /usr/include/c++/11/bits/parse_numbers.h \
+  /usr/include/c++/11/numeric \
+  /usr/include/c++/11/bits/stl_numeric.h \
+  /usr/include/c++/11/bit \
+  /usr/include/c++/11/pstl/glue_numeric_defs.h
 
 CMakeFiles/pakiet.dir/pakiet.cpp.o: ../pakiet.cpp \
   /usr/include/stdc-predef.h \
@@ -475,8 +483,16 @@ CMakeFiles/pakiet.dir/pakiet.cpp.o: ../pakiet.cpp \
   /usr/include/c++/11/optional \
   /usr/include/c++/11/algorithm \
   /usr/include/c++/11/pstl/glue_algorithm_defs.h \
-  /usr/include/c++/11/pstl/execution_defs.h
+  /usr/include/c++/11/pstl/execution_defs.h \
+  /usr/include/c++/11/chrono \
+  /usr/include/c++/11/ratio \
+  /usr/include/c++/11/ctime \
+  /usr/include/c++/11/bits/parse_numbers.h
 
+
+/usr/include/c++/11/bits/parse_numbers.h:
+
+/usr/include/c++/11/ratio:
 
 /usr/include/c++/11/tr1/riemann_zeta.tcc:
 
@@ -513,6 +529,8 @@ CMakeFiles/pakiet.dir/pakiet.cpp.o: ../pakiet.cpp \
 /usr/include/c++/11/bits/vector.tcc:
 
 /usr/include/c++/11/bits/stl_bvector.h:
+
+/usr/include/c++/11/bits/stl_numeric.h:
 
 /usr/include/c++/11/bits/stl_uninitialized.h:
 
@@ -596,6 +614,8 @@ CMakeFiles/pakiet.dir/pakiet.cpp.o: ../pakiet.cpp \
 
 /usr/include/stdio.h:
 
+/usr/include/c++/11/chrono:
+
 /usr/include/c++/11/cstdio:
 
 /usr/include/c++/11/bits/std_abs.h:
@@ -654,6 +674,8 @@ CMakeFiles/pakiet.dir/pakiet.cpp.o: ../pakiet.cpp \
 
 /usr/include/stdint.h:
 
+/usr/include/c++/11/pstl/glue_numeric_defs.h:
+
 /usr/include/c++/11/bits/exception.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
@@ -661,6 +683,8 @@ CMakeFiles/pakiet.dir/pakiet.cpp.o: ../pakiet.cpp \
 /usr/include/x86_64-linux-gnu/bits/wchar.h:
 
 /usr/include/c++/11/bits/range_access.h:
+
+/usr/include/c++/11/bit:
 
 /usr/include/c++/11/tr1/poly_laguerre.tcc:
 
@@ -761,6 +785,8 @@ CMakeFiles/pakiet.dir/pakiet.cpp.o: ../pakiet.cpp \
 /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h:
 
 /usr/include/c++/11/iosfwd:
+
+/usr/include/c++/11/ctime:
 
 /usr/include/x86_64-linux-gnu/bits/time64.h:
 
@@ -915,6 +941,8 @@ CMakeFiles/pakiet.dir/pakiet.cpp.o: ../pakiet.cpp \
 /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
 
 /usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
+
+/usr/include/c++/11/numeric:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h:
 
