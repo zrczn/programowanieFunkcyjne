@@ -96,5 +96,8 @@ int main(){
 ////////////////////////////////////////
     auto f = std::bind(longFuncDemo, 1, 2 , std::placeholders::_1);
     f(5);
+///////////////////////////////////////
+    std::tuple<int, int> dopasowanieDoWzorca(std::tuple<int, int> t);
+    int dopasowanieDoWzorca(int t);
     return 0;
 }

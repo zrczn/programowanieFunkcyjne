@@ -23,6 +23,9 @@ namespace pakiet
         int val1, char val2);
     
     void longFuncDemo(int a, int b, int c);
+
+    template<typename T>
+    T dopasowanieDoWzorca(T type);
 }
 
 template<size_t C>

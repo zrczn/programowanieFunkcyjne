@@ -46,3 +46,8 @@ std::tuple<int, char> pakiet::twoFuncComposition(
 void pakiet::longFuncDemo(int a, int b, int c){
     std::cout << a << ',' << b << ',' << c;
 }
+
+template<typename T>
+T pakiet::dopasowanieDoWzorca(T type){
+
+}
