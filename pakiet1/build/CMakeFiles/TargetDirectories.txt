@@ -1,0 +1,3 @@
+/home/pat/repos/cpp/zalFunkcyjne/pakiet1/build/CMakeFiles/pakiet.dir
+/home/pat/repos/cpp/zalFunkcyjne/pakiet1/build/CMakeFiles/edit_cache.dir
+/home/pat/repos/cpp/zalFunkcyjne/pakiet1/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/pat/repos/cpp/zalFunkcyjne/build",
+  "command": "/usr/bin/g++ -g -o CMakeFiles/pakiet.dir/main.cpp.o -c /home/pat/repos/cpp/zalFunkcyjne/pakiet1/main.cpp",
+  "file": "/home/pat/repos/cpp/zalFunkcyjne/pakiet1/main.cpp"
+},
+{
+  "directory": "/home/pat/repos/cpp/zalFunkcyjne/build",
+  "command": "/usr/bin/g++ -g -o CMakeFiles/pakiet.dir/pakiet.cpp.o -c /home/pat/repos/cpp/zalFunkcyjne/pakiet1/pakiet.cpp",
+  "file": "/home/pat/repos/cpp/zalFunkcyjne/pakiet1/pakiet.cpp"
+}
+]
